@@ -1,7 +1,13 @@
-/* ===================================================================
- * Infinity - Main JS
- *
- * ------------------------------------------------------------------- */ 
+//typed
+
+var typed = new Typed('.multitext', {
+	strings: ['Video Editor', 'Color Grader', 'VFX Artist', 'Youtuber'],
+	loop: true,
+	typeSpeed: 100,
+	backSpeed: 80,
+	startDelay: 1000,
+});
+
 
 (function($) {
 

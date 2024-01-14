@@ -159,7 +159,7 @@ p img {
 
 p.lead {
   font-family: "montserrat-regular", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   color: #4f4f4f;
   margin-bottom: 3.6rem;
@@ -1262,10 +1262,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 57px;
-  height: 27px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 57px 27px;
+  width: 60px;
+  height: 60px;
+  background: url("../images/helilogo.png") no-repeat center;
+  background-size: 60px 60px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1491,9 +1491,9 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 51px;
-    height: 24px;
-    background-size: 51px 24px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1618,6 +1618,10 @@ header .header-logo a {
 
 #home i {
   font-size: 25px;
+}
+
+.multitext {
+  color: #2285ff;
 }
 
 /* scroll down */
@@ -1824,7 +1828,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about .lead {
   font-family: "montserrat-regular", serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   color: #2e383f;
   margin-top: 3rem;
@@ -1852,7 +1856,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 800px;
   }
   #about .lead {
-    font-size: 3.8rem;
+    font-size: 1.8rem;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -1860,7 +1864,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 720px;
   }
   #about .lead {
-    font-size: 3.6rem;
+    font-size: 1.6rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1871,7 +1875,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 600px;
   }
   #about .lead {
-    font-size: 3.1rem;
+    font-size: 1.1rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1883,7 +1887,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
   #about .lead {
     margin-top: 4.8rem;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1891,7 +1895,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.5rem;
   }
   #about .lead {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1902,7 +1906,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 380px;
   }
   #about .lead {
-    font-size: 2.3rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -2923,7 +2927,8 @@ footer h4.h05::after {
 /* footer bottom
  * --------------------------------- */
 .footer-bottom {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
+  padding: 3rem 0;
   text-align: center;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
